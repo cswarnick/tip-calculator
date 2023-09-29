@@ -228,7 +228,7 @@ class _BillSplitterState extends State<BillSplitter> {
   calculateTotalTip(double billAmount, int splitBy, int tipPercentage) {
     double totalTip = 0.0;
 
-    if (billAmount < 0 || billAmount.toString().isEmpty || billAmount == null) {
+    if (billAmount < 0 || billAmount.toString().isEmpty) {
     } else {
       totalTip = (billAmount * tipPercentage) / 100;
     }
