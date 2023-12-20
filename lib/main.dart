@@ -1,6 +1,5 @@
+import 'package:bizcardapp/ui/bill_splitter/bill_splitter_page.dart';
 import 'package:flutter/material.dart';
-
-import 'ui/home.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -8,21 +7,3 @@ void main() {
     home: BillSplitter(),
   ));
 }
-
-// void main() {
-//   runApp(const ScaffoldExample());
-// }
-
-// void main() {
-//   runApp(new MaterialApp(
-//     debugShowCheckedModeBanner: false,
-//     home: BizCard(),
-//   ));
-// }
-
-// void main() {
-//   runApp(new MaterialApp(
-//     debugShowCheckedModeBanner: false,
-//     home: Wisdom(),
-//   ));
-// }
